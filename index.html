@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>weather app</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <h1>weather app</h1>
+    <form id="search-form">
+        <input type="search" placeholder="enter city name!" id="search-input" required autocomplete="off">
+        <button value="search" id="search-button">search</button>
+    </form>
+
+    <main id="app-container">
+        <div id="location">
+            <p>----</p>
+        </div>
+        <div id="temp">
+            <p><span id="temp-value">-----</span><span id="temp-unit">&#176c </span></p>
+        </div>
+        <div id="climate">
+            <p>----</p>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
